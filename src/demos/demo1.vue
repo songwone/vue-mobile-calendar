@@ -8,7 +8,7 @@
       mode={{mode}}
     </p>
     <p>
-      已选日期：{{this.date}}
+      已选日期1：{{this.date}}
     </p>
     <calendar :show.sync="show" :mode="mode" @change="onChange"/>
   </div>
